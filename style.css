@@ -1,0 +1,30 @@
+body {
+    background: rgb(12, 12, 12);
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggle{
+    background-color:silver;
+    transition:0.3s;
+    height:30px;
+    border-radius:30px;
+    width:80px;
+    padding:8px;
+}
+.toggle .circle{
+    height:30px;
+    width:30px;
+    background-color:white;
+    border-radius:100%;
+    transition:0.5s;
+}
+.toggle.active{
+    background-color:rgb(0, 102, 255); 
+}
+.toggle.active .circle{
+    margin-left:50px;
+} 
